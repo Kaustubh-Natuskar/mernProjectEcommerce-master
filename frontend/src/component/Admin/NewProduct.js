@@ -36,8 +36,16 @@ const NewProduct = ({ history }) => {
 		"Formals",
 		"Business attire",
 		"Shorts",
-    "Belts",
-    "Socks",
+		"Belts",
+		"Socks",
+		"Laptop",
+		"mobile",
+		"camera",
+		"keyboard",
+		"mouse",
+		"monitor",
+		"graphics-card",
+		"Processor",
 	];
 
   useEffect(() => {

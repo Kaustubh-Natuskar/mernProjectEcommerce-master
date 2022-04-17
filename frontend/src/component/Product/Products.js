@@ -11,13 +11,24 @@ import Typography from "@material-ui/core/Typography";
 import MetaData from "../layout/MetaData";
 
 const categories = [
+	"Footwear",
+	"T-shirt",
+	"Tops",
+	"jacket",
+	"jeans",
+	"Formals",
+	"Business attire",
+	"Shorts",
+	"Belts",
+	"Socks",
   "Laptop",
-  "Footwear",
-  "Bottom",
-  "Tops",
-  "Attire",
-  "Camera",
-  "SmartPhones",
+  "mobile",
+  "camera",
+  "keyboard",
+  "mouse",
+  "monitor",
+  "graphics-card",
+  "Processor",
 ];
 
 const Products = ({ match }) => {
@@ -84,7 +95,7 @@ const Products = ({ match }) => {
               valueLabelDisplay="auto"
               aria-labelledby="range-slider"
               min={0}
-              max={25000}
+              max={2500000}
             />
 
             <Typography>Categories</Typography>
